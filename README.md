@@ -3,8 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Deployed Link
-[Git Me There](https://andcooke.github.io/git-me-there/) <br>
-Deployment Date - July 12, 2022
+[Git Me There](https://missatrox44.github.io/git-me-there/)<br>
+[Original Deployment](https://andcooke.github.io/git-me-there/) <br>
+Original Deployment Date - July 12, 2022
 
 ## Description
 Git Me There was created for users to plan their transportation needs for upcoming trips. A user simply types in the location of any U.S. city and will be given a walking score, biking score, and restaurants nearby. If the walking score is below 50, a link to reserve a ride with Uber will appear.
