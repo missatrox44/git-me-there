@@ -20,12 +20,6 @@ searchButtonEl.addEventListener("click", handleSearchSubmit);
 
 
     // Code for Modal
-    //materialize syntax
-    $(document).ready(function(){
-        $('.modal').modal();
-    })
-    
-    // initial instance - Materialize syntax
     function toggleModal(){
         // target modal
         var instance = M.Modal.getInstance($('#modal3'));
