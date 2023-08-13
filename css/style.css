@@ -27,3 +27,8 @@ body::before {
 .container {
   flex: 1; /* This allows the main content to expand and push the footer down */
 }
+
+
+.page-footer {
+  flex-shrink: 0;
+}
