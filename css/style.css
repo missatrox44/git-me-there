@@ -1,14 +1,26 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
-body {
+#landing {
   display: flex;
   flex-direction: column;
   position: relative;
-        background-image: url("https://images.unsplash.com/photo-1519255122284-c3acd66be602?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1590&q=80");
+  background-image: url("https://images.unsplash.com/photo-1519255122284-c3acd66be602?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1590&q=80");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #b3e0ff;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
   background-position: center center;
   background-color: #b3e0ff;
 }
@@ -25,7 +37,7 @@ body::before {
 }
 
 .container {
-  flex: 1; /* This allows the main content to expand and push the footer down */
+  flex: 1;
 }
 
 
